@@ -9,8 +9,12 @@
     "timestamps": true
   },
   "attributes": {
-    "Description": {
-      "type": "text"
+    "name": {
+      "type": "string"
+    },
+    "manager": {
+      "model": "administrator",
+      "plugin": "admin"
     }
   }
 }
